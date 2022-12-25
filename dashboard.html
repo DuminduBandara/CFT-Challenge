@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <style>  
+    
+body {
+  background:#E5E8E8;
+  color: #444;
+  font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+  /* text-shadow: 0 1px 0 #fff; */
+}
+
+strong {
+  font-weight: bold; 
+}
+
+em {
+  font-style: italic; 
+}
+
+table {
+  background: #D5D8DC;
+  border-collapse: separate;
+  box-shadow: inset 0 1px 0 #fff;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 30px auto;
+  text-align: left;
+  width: 800px;
+} 
+
+th {
+  background: #2C3E50;
+  border-left: 1px solid #555;
+  border-right: 1px solid #777;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #333;
+  box-shadow: inset 0 1px 0 #999;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 #000;  
+}
+
+th:after {
+  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+  content: '';
+  display: block;
+  height: 25%;
+  left: 0;
+  margin: 1px 0 0 0;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+th:first-child {
+  border-left: 1px solid #777;  
+  box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+  box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #e8e8e8;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 300ms;
+}
+
+td:first-child {
+  box-shadow: inset 1px 0 0 #fff;
+} 
+
+td:last-child {
+  border-right: 1px solid #e8e8e8;
+  box-shadow: inset -1px 0 0 #fff;
+} 
+
+tr {
+  background: url(https://jackrugile.com/images/misc/noise-diagonal.png); 
+}
+
+tr:nth-child(odd) td {
+  /* background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);  */
+  background:#808B96;
+}
+
+tr:last-of-type td {
+  box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+  box-shadow: inset 1px -1px 0 #fff;
+} 
+
+tr:last-of-type td:last-child {
+  box-shadow: inset -1px -1px 0 #fff;
+} 
+
+tbody:hover td {
+  color: transparent;
+}
+
+tbody:hover tr:hover td {
+  color: #444;
+}
+
+
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+</style>
+
+</head>
+<body>
+<h1 style="text-align: center; color:#2C3E50;">Admin Dashboard..!!! </h1> 
+<table>
+  <thead>
+    <tr>
+      <th>Level No</th>
+      <th>Mark</th>
+      <th>Option</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Level 01</strong></td>
+      <td>50</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Level 02</strong></td>
+      <td>80</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 03</strong></td>
+      <td>40</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 04</strong></td>
+      <td>80</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>         
+    <tr>
+      <td><strong>Level 05</strong></td>
+      <td>30</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 06</strong></td>
+      <td>100</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button>
+    <tr>
+      <td><strong>Level 07</strong></td>
+      <td>120</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 08</strong></td>
+      <td>80</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 09</strong></td>
+      <td>180</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 10</strong></td>
+      <td>120</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 11</strong></td>
+      <td>120</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 12</strong></td>
+      <td>150</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 13</strong></td>
+      <td>150</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 14</strong></td>
+      <td>100</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button></td>
+    </tr>
+    <tr>
+      <td><strong>Level 15</strong></td>
+      <td>100</td>
+      <td><button class="button button1">View</button>
+          <button class="button button2">Update</button>
+          <button class="button button3">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+</body>
+</html>
